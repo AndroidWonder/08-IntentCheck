@@ -22,6 +22,8 @@ public class IntentCheckActivity extends Activity {
     @Override
     public void onStart(){
     	super.onStart();
+
+    	//make an explicit intent for another Activity to start using a request code
     	Intent intent = new Intent(this, UIDemo.class);
         startActivityForResult(intent, requestCode_235);
     }
