@@ -1,5 +1,5 @@
 //Using onStart() allows multiple attempts. If we only relied on onCreate(),
-//the app couldn't restart when only stopped. Do you see why?
+//the app couldn't restart when only stopped. Do you see why???
 
 package com.course.example.intentcheck;
 
